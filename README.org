@@ -183,7 +183,7 @@ File me [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/issues][Issues
 | Name                            | Command                                                    |
 |---------------------------------+------------------------------------------------------------|
 | View all events                 | =kubectl get events --all-namespaces=                      |
-| List Events sorted by timestamp | kubectl get events --sort-by=.metadata.creationTimestamp   |
+| List Events sorted by timestamp | =kubectl get events --sort-by=.metadata.creationTimestamp= |
 ** Node Maintenance
 | Name                                      | Command                       |
 |-------------------------------------------+-------------------------------|
